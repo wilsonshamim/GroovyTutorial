@@ -1,0 +1,20 @@
+we create list in groovy using 
+lst = [1,2,3,4,5]
+lst1 = ["a","b","c"]
+
+to access each items we use clouser
+
+lst.each { println it}
+
+
+we create map using name value pair
+
+m1  = [n1:"v1",n2:"v2"]
+
+to access 
+
+m1.each { println it}
+
+to access all keys:
+m1.each { println it.keys}
+
