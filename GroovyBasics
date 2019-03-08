@@ -22,9 +22,16 @@ single line using //
 
 and multiline using /* .... */
 
+-----------------------------
+When we declare a variable or function in Groovy, we can use the def keyword to define the type. ...
+When we use Groovy def to declare something, it is similar to declaring it as an Object class. 
+Because the class Object is the root class of all classes, 
+you can assign anything to a variable of type Object
+
 ------------------------
 Identifiers
-Identifiers are used to define variables, functions or other user defined variables. Identifiers start with a letter, a dollar or an underscore. They cannot start with a number. Here are some examples of valid identifiers −
+Identifiers are used to define variables, functions or other user defined variables. 
+Identifiers start with a letter, a dollar or an underscore. They cannot start with a number. Here are some examples of valid identifiers −
 
 def employeename 
 def student1 
@@ -81,6 +88,18 @@ sample:
 		double dd = 1
 		java.lang.Double ddd = 22
 		println(ddd)
+
+
+
+Range Operator:
+Groovy supports the concept of ranges and provides a notation of range operators with the help of the .. notation. 
+
+void RangeDemo() {
+	def v = 1..10;
+	println(v) // 1..10
+	println(v.get(index))
+	v.forEach({println it})
+}
 
 
 
