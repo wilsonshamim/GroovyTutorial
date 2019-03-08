@@ -144,5 +144,12 @@ Groovy has a String implementation called GString which allow to add variables i
 def x = "World"
 println "Hello, $x"
 
+This would produce the output Hello, World. The content of variable x is inserted into the string. If you want to use more complex statements in the string you need to add curly braces after the dollar sign, e.g.:
+
+def firstName = "Douglas"
+def name = "Adams"
+println "Hello, ${firstName[0]}. $name"
+
+This will produce the output Hello, D. Adams. I
 
 ---------------------------
