@@ -136,3 +136,13 @@ void RangeDemo() {
 
 
 
+-----------------------
+GString:
+
+Groovy has a String implementation called GString which allow to add variables into the String (so called String interpolation).
+
+def x = "World"
+println "Hello, $x"
+
+
+---------------------------
