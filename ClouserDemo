@@ -1,0 +1,25 @@
+A closure is a short anonymous block of code. It just normally spans a few lines of code.
+
+package com.org
+
+class StringDemo {
+	static void main(String[] ar) {
+	def c = 	{ p1 ,p2 ->  println "aa ${p1} and ${p2}"}
+	c.call("wilson","shamim")
+
+	}
+	
+}
+
+
+{ p1 ,p2 ->  println "aa ${p1} and ${p2}"} is a block of code which is also called clouser where p1 and p2 are parameters.
+
+
+def c = 	{ p1 ,p2 ->  println p1 + p2 }
+	c.call(1,2)
+  
+// 3
+
+def c = 	{ p1 ,p2 ->  println p1 + p2 }
+	c.call("wilson","shamim")
+// wilsonshamim  
