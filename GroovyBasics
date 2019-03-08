@@ -1,0 +1,86 @@
+1. Groovy is very similar to java.
+2. we create a groovy file and execute as java application.
+
+3. first sample program:
+
+package com.org
+
+class First {
+	static void main(String[] ar) {
+		def a = 1
+		println(a)
+	// this is comments
+	}
+}
+
+
+---------------------
+
+comments in groovy :
+
+single line using //
+
+and multiline using /* .... */
+
+------------------------
+Identifiers
+Identifiers are used to define variables, functions or other user defined variables. Identifiers start with a letter, a dollar or an underscore. They cannot start with a number. Here are some examples of valid identifiers −
+
+def employeename 
+def student1 
+def student_name
+
+where def is a keyword used in Groovy to define an identifier.
+
+-------------------
+Keywords
+Keywords as the name suggest are special words which are reserved in the Groovy Programming language. 
+The following table lists the keywords which are defined in Groovy.
+
+as	, assert,	break,	case, catch,	class,	const,	continue, def,	default	,do,	else, enum,	extends,	false,	Finally
+for,	goto,	if,	implements, import,	in,	instanceof,	interface, new,	pull,	package,	return,super,	switch,	this,	throw, throws,
+trait,	true,	try ,while	
+
+-------------
+
+Literals
+A literal is a notation for representing a fixed value in groovy
+
+12 
+1.45 
+‘a’ 
+“aa”
+
+Datatypes in groovy:
+byte,
+short
+long
+int
+float
+double
+char
+boolean
+string
+
+Class Numeric
+Types In addition to the primitive types, the following object types (sometimes referred to as wrapper types) are allowed −
+
+java.lang.Byte
+java.lang.Short
+java.lang.Integer
+java.lang.Long
+java.lang.Float
+java.lang.Double
+java.math.BigInteger
+java.math.BigDecimal	
+
+sample:
+    int x = 10
+		long y = 1L
+		float aa = 1.7f
+		double dd = 1
+		java.lang.Double ddd = 22
+		println(ddd)
+
+
+
