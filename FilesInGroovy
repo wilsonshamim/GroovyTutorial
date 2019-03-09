@@ -1,0 +1,26 @@
+
+
+	File f = new File("test.txt")
+  // read each lines
+  
+	f.each { 
+		line -> println " text is : $line"
+		 }
+	
+  // read each lines.
+  println f.readLines().forEach({println it	})
+	
+  //read text
+  
+	println f.text
+  
+  
+  //Write Files:
+  File f2 = new File("test1.txt")
+	f2.write("ok")
+	
+	File f3 = new File("test1.txt")
+	f3.each {
+		line -> println " text is : $line"
+		 }
+	
