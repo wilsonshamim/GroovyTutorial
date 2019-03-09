@@ -24,3 +24,24 @@
 		line -> println " text is : $line"
 		 }
 	
+
+// make directory or delete directory
+	
+	File f4 = new File("Test1")
+	f4.mkdir()	
+	f4.deleteDir()
+	
+//check if file is a directory?
+	println "File? ${f.isFile()}"
+	println "File? ${f.isDirectory()}"
+
+//Copy Files:
+
+	def src = new File("E:/Example.txt")
+      	def dst = new File("E:/Example1.txt")
+      	dst << src.text
+	
+// read each files in a directory
+
+	def f5 = new File("Dir")
+	f5.eachFile { println it.text }
