@@ -1,0 +1,28 @@
+	  //Create arrays
+    def ars = new String[3]
+		ars[0] = "1"
+		ars[1] = "2"
+		ars[2] = "3"
+		
+		println ars
+		
+    //Second way to create arrays
+		Integer[] ars1 = [19,3,4,4]
+    
+    //get length of an array
+		println ars1.length
+		println ars1.size() 
+    
+    //get the value for an index
+		println ars1.getAt(1)
+		
+    //get max or min of an array
+		println ars1.min()
+		
+    //sort an array
+		def xx = ars1.sort()
+		println xx
+		
+    //reverse an array
+		def yy = ars1.reverse()
+		println yy
